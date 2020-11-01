@@ -25,7 +25,7 @@
 ## :camera: Screenshots
 
 ![screen print](./img/admin.png)
-![screen print](./img/admin.png)
+![screen print](./img/qrcode.png)
 
 ## :signal_strength: Technologies
 
