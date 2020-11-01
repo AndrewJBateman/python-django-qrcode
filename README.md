@@ -19,19 +19,19 @@
 
 ## :books: General info
 
-* Django framework admin dashboard lets user specify website address, although any text entry up to 200 chars will be accepted. This text is converted into a barcode and displayed using the `qrcode` Python library function.
+* Django framework admin dashboard lets user specify website address, although any text entry up to 200 chars will be accepted. This text is converted into a QR code and displayed using the `qrcode` Python library function.
 * QR codes saved to a media file on the hard drive - not in the project file.
 
 ## :camera: Screenshots
 
 ![screen print](./img/admin.png)
-![screen print](./img/barcode.png)
+![screen print](./img/admin.png)
 
 ## :signal_strength: Technologies
 
 * [Python v3](https://www.python.org/) programming language
 * [Django v3](https://www.djangoproject.com/) server-side web framework
-* [qrcode v6](https://pypi.org/project/qrcode/) Pure python QR Code generator
+* [PyPI library package: qrcode v6](https://pypi.org/project/qrcode/) Pure python QR Code generator
 
 ## :floppy_disk: Setup
 
@@ -50,7 +50,7 @@
 
 ## :computer: Code Examples
 
-* extract from `websites/models.py` - saves QR code image with website name as a PNG (Portable Network Graphic) which is the best format to use due to giving a good quality image in a small file size
+* extract from `websites/models.py` - saves QR code image with website name as a PNG (Portable Network Graphic) which is the best format to use as it gives a good quality image in a small file size
 
 ```python
   def save(self, *args, **kwargs):
